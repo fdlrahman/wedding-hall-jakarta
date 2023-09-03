@@ -224,9 +224,9 @@
 
     $(".send-email-btn").on("click", () => {
         const data = {
-            service_id: "service_2ub0two",
-            template_id: "template_9w7w7go",
-            user_id: "zDwnt4AhLx75oV4xY",
+            service_id: "",
+            template_id: "",
+            user_id: "",
             template_params: {
                 name: $("#name").val(),
                 phone: $("#phone").val(),
